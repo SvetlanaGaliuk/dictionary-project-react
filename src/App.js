@@ -1,4 +1,5 @@
 import logo from "./logo.jpg";
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 function App() {
@@ -10,15 +11,22 @@ function App() {
             <img src={logo} className="App-logo img-fluid" alt="logo" />
             <h1>Dictionary</h1>
           </div>
-          <a
-            className="App-link btn btn-primary shadow"
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Search
-          </a>
         </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          <small className="open-source-code">
+            <a
+              href="https://github.com/SvetlanaGaliuk/dictionary-project-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open-source code
+            </a>{" "}
+            by Svetlana Galiuk
+          </small>
+        </footer>
       </div>
     </div>
   );
