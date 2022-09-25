@@ -9,7 +9,9 @@ function App() {
         <header className="App-header">
           <div className="row">
             <img src={logo} className="App-logo img-fluid" alt="logo" />
-            <h1>Dictionary</h1>
+            <h1> Dictionary</h1>
+
+            <h2 className="mt-3">What word do you want to look up?</h2>
           </div>
         </header>
         <main>
