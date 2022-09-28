@@ -15,7 +15,7 @@ function App() {
           </div>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">
           <small className="open-source-code">
